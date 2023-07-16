@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kdam+Thmor+Pro&family=Kenia&family=Nerko+One&family=Oswald&family=Poppins:wght@300;500&family=Rubik&family=Zen+Dots&display=swap');
+.main{
+    width: 100%;
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;  
+}
+.titulo,.titulo_ejercicio{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.titulo h1, .titulo_ejercicio h1{
+    width: 100%;
+    font-size: 3rem;
+
+}
+.titulo p{
+    width: 100%;
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+p{
+    width: 100%;
+    font-family: 'Poppins';
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1rem   ;
+}
+.presentacion img{
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: blue;
+}
+.presentacion .img_short{
+    width: 50px;
+}
+.digital_clock img,.label_text img,.textfinder img{
+    width: 350px;
+}
+.introduccion_qtcreator{
+    max-width: 100%;
+    display: flex;
+    margin: 10px;
+}
+.introduccion_qtcreator img{
+    width: 350px;
+}
+.instalacion_qtcreator ol{
+    margin: 20px;
+}

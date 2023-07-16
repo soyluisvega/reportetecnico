@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/index_main.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <title>QT Creator</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="../img/logo_ipn.png" alt="">
+        </div>
+        <ul class="nav">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./C.html">C++</a></li>
+            <li><a href="./qtcreator.html">QtCreator</a></li>
+            <li><a href="./cgal.html">CGAL</a></li>
+            <li><a href="./freecad.html">FreeCAD</a></li>
+            <li><a href="./onelab.html">ONE Lab</a></li>
+        </ul>
+    </header>
+     <main class="main">
+        <div class="introduccion_qtcreator">
+            <img src="../img/Qt_logo_2016.svg.png" alt="">
+            <p>
+                QtCreator es un entorno de desarrollo integrado (IDE) que ofrece una amplia gama de herramientas 
+                para la creación de aplicaciones gráficas y de interfaz de usuario. 
+                Es altamente versátil y fácil de usar, permitiendo a los usuarios 
+                crear y desarrollar programas de geometría computacional de manera 
+                eficiente. Con QtCreator, los usuarios podrán aprovechar una interfaz 
+                intuitiva y herramientas de depuración avanzadas, lo que les permitirá 
+                construir y visualizar geometría compleja de manera rápida y precisa.
+            </p>
+        </div>
+        <div class="instalacion_qtcreator">
+            <h1>Instalación y configuración de QtCreator</h1>
+            <p>
+                Instalación y Configuración de QtCreator: Guía Paso a Paso
+                A continuación, te presentaré una detallada guía para la 
+                instalación y configuración del software QtCreator, utilizando
+                 la propia documentación y guía de instalación proporcionada 
+                 por el programa.
+                 <ol>
+                    <li>
+                        Paso 1: Descarga del software<br>
+                        Dirígete al sitio web oficial de QtCreator (www.qt.io) 
+                        y busca la sección de descargas. Asegúrate de seleccionar 
+                        la versión compatible con tu sistema operativo. Descarga 
+                        el instalador correspondiente y guárdalo en una ubicación 
+                        accesible en tu computadora.
+                    </li>
+                    <li>
+                        Paso 2: Ejecutar el instalador<br>
+                        Una vez que se haya completado la descarga, localiza el archivo 
+                        de instalación y ejecútalo haciendo doble clic en él. Se abrirá 
+                        el asistente de instalación de QtCreator.
+                    </li>
+                    <li>
+                        Paso 3: Configuración del instalador<br>
+                        El asistente de instalación te guiará a través de diferentes opciones 
+                        y configuraciones. Lee cuidadosamente cada paso y elige las opciones 
+                        que mejor se adapten a tus necesidades. Asegúrate de seleccionar los 
+                        componentes relevantes para la geometría computacional y la física.
+                    </li>
+                    <li>
+                        Paso 4: Ubicación de instalación <br>
+                        En este paso, se te solicitará que selecciones la ubicación de instalación 
+                        de QtCreator en tu sistema. Puedes optar por la ubicación predeterminada o 
+                        elegir una ruta personalizada. Selecciona la opción que prefieras y continúa 
+                        con la instalación.
+                    </li>
+                    <li>
+                        Paso 5: Configuración adicional <br>
+                        Durante la instalación, es posible que se te soliciten otras configuraciones 
+                        opcionales, como la integración con otros programas o la configuración del entorno
+                         de desarrollo. Sigue las instrucciones y configura estas opciones según tus 
+                         preferencias.
+                    </li>
+                    <li>
+                        Paso 6: Finalización de la instalación <br>
+                        Una vez que hayas completado todas las configuraciones y opciones, el instalador 
+                        comenzará a instalar QtCreator en tu sistema. Esto puede llevar algún tiempo, 
+                        dependiendo de la velocidad de tu computadora.
+                    </li>
+                    <li>
+                        Paso 7: Configuración inicial de QtCreator
+                        Una vez que la instalación se haya completado con éxito, ejecuta QtCreator desde 
+                        el menú de inicio o el acceso directo en tu escritorio. En la primera ejecución, 
+                        se te solicitará que realices algunas configuraciones iniciales, como la selección 
+                        del kit de compilación y la configuración del perfil de usuario. Sigue las 
+                        instrucciones proporcionadas y configura estos aspectos según tus preferencias y 
+                        entorno de desarrollo.
+                    </li>
+                 </ol>
+
+                ¡Enhorabuena! Ahora tienes QtCreator instalado y configurado en tu sistema. Puedes comenzar a explorar la amplia gama de características y herramientas que ofrece este potente entorno de desarrollo integrado para la geometría computacional y la física. Recuerda consultar la documentación oficial de QtCreator para obtener más detalles sobre su uso y aprovechar al máximo sus capacidades.
+                ¡Disfruta de tu experiencia de programación con QtCreator y explora el emocionante mundo de la geometría computacional orientada a la física!
+            </p>
+        </div>
+       <div class="titulo">
+            <h1>Introducción a QT Creator</h1>
+            <p>En esta sección se explicará las formas en las que podemos agregar SIGNAL y SLOT </p>
+       </div>
+        <hr>
+        <div class="presentacion">
+            <h2>Forma 1: Agregando SIGNAL y SLOT desde Design</h2>
+            <p>
+               Tenemos un proyecto ya creado que nombramos boton1. Una vez creado nos vamos a la carpeta
+               llamada Forms y le damos doble clic al archivo mainwindows.ui
+            </p>
+            <img src="../img/img1.PNG" alt="">
+            <p>
+                Ahora nos vamos a la parte Design y en la parte izquierda podremos observar diferentes objetos 
+                que podemos insertar en la parte central de nuestra ventana. En este caso arrastraremos un 
+                Push Button
+            </p>
+            <img src="../img/img2.PNG" alt="">
+            <p>
+                En la parte baja de la ventana, tendremos la parte para añadir SIGNAL y SLOT
+                Y hay 4 partes que son Sender, Signal, Receiver, Slot.<br>
+                Sender: Será el que envie la señal y que objeto será.<br>
+                Signal: Muestra qué tipo de señal será mandada por el sender.<br>
+                Receiver: El objeto que recibirá la señal.<br>
+                Slot: Que hará el objeto que recibió la señal
+
+            </p>
+            <img src="../img/img3.PNG" alt="">
+            <p>Finalmente guadaremos y correremos el boton de Run <img src="../img/correr_proyecto.PNG" alt="" class="img_short"> 
+                para poder observar nuestro trabajo   
+            </p>
+            <img src="../img/ventana_prueba1.PNG" alt="">
+            <p>
+                Le damos clic y se cerrará ya que le dimos el Slot de close que cierra objetos
+            </p>
+            <h2>Forma 2: Signal y Slot por código</h2>
+            <p>
+                Ahora seguiremos todos los pasos de ejemplo anterior hasta la parte de haber puesto el 
+                objeto de ventana 
+            </p>
+            <img src="../img/img4.PNG" alt="">
+            <p>
+                Despues nos vamos hacia la parte izquierda y le damos clic en edit para asi poder seleccionar el archivo
+                mainwindow.cpp que se encuentra en la carpeta Source.
+            </p>
+            <img src="../img/boton_segundaforma.PNG" alt="">
+            <p>
+                Debajo de la línea ui->setup(this); */línea 8*/ pondremos el siguiente comando conect() que
+                recibe 4 parámetros como argumentos que son sender, signal, receiver y slot.
+                Sender: Será el que envie la señal y que objeto será.<br>
+                Signal: Muestra qué tipo de señal será mandada por el sender.<br>
+                Receiver: El objeto que recibirá la señal.<br>
+                Slot: Que hará el objeto que recibió la señal
+            </p>
+            <img src="../img/img5.PNG" alt="">
+            <p>
+                Ahora ejecutaremos el proyecto en el mismo botón. <img src="../img/correr_proyecto.PNG" alt="" class="img_short">
+                Y si le damos clic al botón con texto salida se cerrará la ventana
+            </p>
+            <img src="../img/ventana_prueba2.PNG" alt="">
+
+            <p></p>
+            <h2>Forma 3:Creando un elemento por código </h2>
+            <p>
+                Una vez creado nuestro proyecto nos vamos a la carpte de headers y abrimos el archivo de mainwindow.cpp y en private 
+                 definimos el elemento QPushButton que es un apuntador. Además llamanos en la parte de arriba la librería 
+                 para poder usar el objeto QPushButton  
+            </p>
+            <img src="../img/img6.PNG" alt="">
+            <p>
+                Ahora nos vamos a nuestro archivo mainwindow.cpp que se encuentra  en la capeta Sources 
+                Y usaremos la función conect en cual le mandaremos como argumento estos parámetros <br>
+                Sender: Será el que envie la señal y que objeto será.<br>
+                Signal: Muestra qué tipo de señal será mandada por el sender.<br>
+                Receiver: El objeto que recibirá la señal.<br>
+                Slot: Que hará el objeto que recibió la señal
+            </p>
+            <img src="../img/img7.PNG" alt="">
+            <p>
+                Ahora ejecutaremos el proyecto en el mismo botón. <img src="../img/correr_proyecto.PNG" alt="" class="img_short">
+                Y si le damos clic al botón con texto salida se cerrará la ventana
+            </p>
+            <img src="../img/ventana_prueba3.PNG" alt="">
+            <p></p>
+            <h2>Forma 4: Creando métodos </h2>
+            <p>
+                Añadimos un botón como en la primera forma que se menciona.
+                Hiremos a nuestra carpeta Forms y abriremos nuestro archivo mainwindow.ui
+            </p>
+
+            <img src="../img/img8.PNG" alt="">
+            <p>
+                Y arrastraremos un PushButtom hacia nuestra ventana de edición
+            </p>
+            <img src="../img/img9.PNG" alt="">
+            <p>
+                Ahora nos vamos a nuestro archivo mainwindows.h que se encuentra  en la carpeta Headers
+                Declaramos un slot en la parte private que sera un método que podemos invocar. 
+            </p>
+            <img src="../img/img10.PNG" alt="">
+            <p>
+                Después iremos al archivo mainwindows.cpp y ahí diremos la funcionalidad que tendra el método 
+                que creamos anteriormente.
+                El método describe  que se cerrará la ventana principal
+            </p>
+            <img src="../img/img11.PNG" alt="">
+            <p>
+                Ahora ejecutaremos el proyecto en el mismo botón. <img src="../img/correr_proyecto.PNG" alt="" class="img_short">
+                Y si le damos clic al botón con texto salida se cerrará la ventana
+            </p>
+            <img src="../img/ventana_prueba4.PNG" alt="">
+
+
+        </div>
+        <div class="ejercicios">
+            <div class="titulo_ejercicio">
+                <h1>Ejercicios en QT Creator</h1>
+                <p>En esta sección se mostrará los ejercicios realizados en QT Creator</p>
+            </div>
+            <hr>
+            <div class="label_text">
+                <h2>Campos de texto y etiquetas</h2>
+                <p>
+                    Como todo ejercicio anterior, empezaremos creando un proyecto en el cual podemos llamarlo de cualquier forma.
+                    <br>
+                    Una vez creado nos vamos al archivo mainwindow.ui que se encuentra en la carpeta Forms
+                </p>
+                <img src="../img/img12.PNG" alt="">
+                <p>
+                    Ahora usaremos campos de texto y etiquetas <br> Primero agregaremos las etiquetas y los campos de texto
+                </p>
+                <img src="../img/edit_lineedit.PNG" alt="">
+
+            </div>
+            
+            <div class="digital_clock">
+                <h2>Digital clock</h2>
+                <p>Ahora se realizará un ejercicio que simulará la hora exacta que posee nuestro equipo de cómputo.</p>
+                <p>Se muestra el código que obtendrá el hora de nuestro equipo de cómputo, así como también la impresión en pantalla de el tiempo</p>
+                <img src="../img/codigo_clock.PNG" alt="" srcset="">
+                <p>Se mostrará el código de la ejecución de la aplicación</p>
+                <img src="../img/ejecution_clock.PNG" alt="">
+                <p>Al final este es el resultado de nuestro ejercicio</p>
+                <img src="../img/example_clock.PNG" alt="">
+            </div>
+            <div class="textfinder">
+                <h2>Text finder</h2>
+                <p>Se creará  una aplicación en la que se buscará una palabra dentro de un texto previamente ya creada</p>
+                <p>Se muestra el código que esta conformado por funciones</p>
+                <img src="../img/code_textfinder.PNG" alt="">
+                <p>Código de la ejecución de la aplicación</p>
+                <img src="../img/ejecution_textfinder.PNG" alt="">
+                <p>Aquí se muestra el ejercicio en ejecución</p>
+                <img src="../img/run_textfinder.PNG" alt="" srcset="">
+            </div>
+        </div>
+       
+     </main>
+     <footer>
+        <p>
+            Realizado por el alumno Luis Alberto Vega Martínez y el profesor Crispin Herrera Yañez
+        </p>
+    </footer>
+</body>
+</html>

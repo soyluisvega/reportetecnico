@@ -1,0 +1,50 @@
+main{
+    width: 80%;
+    padding: 20px;
+    position: relative;
+    top: 120px;
+}
+img{
+    width: 450px;
+}
+p{
+    margin: 10px;
+}
+p a{
+    color: black;
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.presentacion_cgal{
+    display: flex;
+}
+.presentacion_cgal *{
+    margin: 10px;
+}
+.instalacion_cgal{
+    margin: 20px 0;
+}
+.instalacion_cgal ol{
+    margin: 15px;
+}
+.imagenes_ejercicio{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagenes_ejercicio img{
+    width: 400px;
+    height: 300px;
+    transition:1s all ;
+}
+.imagenes_ejercicio img:hover{
+    width: 500px;
+    height: 400px;
+}
+.container{
+    position: relative;
+    z-index: 2000;
+}

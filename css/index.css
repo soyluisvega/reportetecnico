@@ -1,0 +1,47 @@
+main{
+    
+    width: 100%;
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;  
+}
+.escuela{
+    width: 100%;
+    text-align: center;
+}
+.escuela h1{
+    font-size: 3rem;
+    color: rgb(0, 60, 255);
+}
+.introduccion{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.introduccion img{
+    width: 300px;
+    margin: 20px 0;
+}
+.indice{
+    padding: 40px;
+    border: black 1px solid;
+    border-radius: 15px;
+    margin: 10px 0;
+    width: 500px;
+}
+
+.indice ul li {
+    margin: 5px 0;
+}
+.indice ul li a{
+    text-decoration: none;
+    color: black;
+}
+.indice ul li a:hover{
+    text-decoration: underline;
+    color: rgb(49, 49, 235);
+}

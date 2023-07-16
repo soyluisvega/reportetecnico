@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kdam+Thmor+Pro&family=Kenia&family=Nerko+One&family=Oswald&family=Poppins:wght@300;500&family=Rubik&family=Zen+Dots&display=swap');
+.main{
+    width: 80%;
+    margin-top: 80px;
+    background-color: rgb(232, 226, 226);
+    font-family: 'Roboto';
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.presentacion_freecad{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.main img{
+    width: 300px;
+}
+.ejercicio {
+    margin: 50px 0;
+}
+.ejercicio_espiral{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+}
+h2, h3{
+    width: 100%;
+    font-size:  2rem;
+}
+.ejercicio_espiral img{
+    width: 450px;
+}
+.ejercicio_espiral p a{
+    color: black;
+}

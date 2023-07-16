@@ -1,0 +1,10 @@
+main{
+    position: relative;
+    top: 120px;
+    margin: 20px;
+    width: 80%;
+}
+.introduccion_onelab{
+    display: flex;
+    align-items: center;
+}
