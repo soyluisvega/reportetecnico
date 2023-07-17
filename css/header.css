@@ -9,6 +9,7 @@ body{
  background: #dee1e2;
  overflow-x: hidden;
  display: flex;
+ flex-wrap: wrap;
  align-items: center;
  justify-content: center;   
 
