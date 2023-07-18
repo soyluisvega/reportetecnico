@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;  
     position: relative;
+    padding: 50px 100px;
 }
 .titulo,.titulo_ejercicio{
     width: 100%;

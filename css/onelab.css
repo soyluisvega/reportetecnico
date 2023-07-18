@@ -3,8 +3,65 @@ main{
     top: 120px;
     margin: 20px;
     width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+h1, h2, h3{
+    width: 100%;
 }
 .introduccion_onelab{
     display: flex;
     align-items: center;
+}
+.ejercicios{
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.ejercicio{
+    margin: 20px;
+}
+.ejercicio-alambre,.ejercicio-placas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.ejercicio-alambre *,.ejercicio-placas *{
+    width: 100%;
+    text-align: center;
+}
+.ejercicio-alambre img,.ejercicio-placas img{
+    width: 690px;
+    margin: 20px;
+}
+.slider{
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+}
+.slider--inner,.slider--inner1{
+    width: 800px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    transition: all 0.3s ease-in;
+    align-items: center;
+    text-align: center;
+}
+.slider--inner img,.slider--inner1 img{
+    width: 100%;
+    height: 600px;
+    aspect-ratio: 16/9;
 }

@@ -34,17 +34,30 @@ p a:hover{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
 }
 .imagenes_ejercicio img{
     width: 400px;
     height: 300px;
     transition:1s all ;
 }
-.imagenes_ejercicio img:hover{
-    width: 500px;
-    height: 400px;
-}
 .container{
     position: relative;
     z-index: 2000;
+    background-color: aqua;
+}
+.container h2,.container h3{
+    font-size: 1rem;
+}
+.container img{
+    width: 500px;
+}
+.carousel{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.carousel-item{
+    background-color: green;
+    min-width: 600px;
 }
