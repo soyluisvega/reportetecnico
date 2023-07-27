@@ -14,12 +14,12 @@
     margin: 20px 0;
 }
 .main img{
-    width: 300px;
+    width: 400px;
 }
 .ejercicio {
     margin: 50px 0;
 }
-.ejercicio_espiral{
+.ejercicio_espiral,.ejercicio_cubo, .ejercicio_placas{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -32,9 +32,12 @@ h2, h3{
     width: 100%;
     font-size:  2rem;
 }
-.ejercicio_espiral img{
-    width: 450px;
+.ejercicio_espiral img, .ejercicio_cubo img, .ejercicio_placas img{
+    width: 650px;
 }
-.ejercicio_espiral p a{
-    color: black;
+.ejercicios a{
+    text-decoration: none;
+}
+.ejercicio a::hover{
+    background-color: blue;
 }

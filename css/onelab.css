@@ -29,7 +29,7 @@ h1, h2, h3{
 .ejercicio{
     margin: 20px;
 }
-.ejercicio-alambre,.ejercicio-placas{
+.ejercicio-alambre,.ejercicio-placas,.ejercicio-elasticidad{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -38,11 +38,11 @@ h1, h2, h3{
     align-items: center;
     justify-content: center;
 }
-.ejercicio-alambre *,.ejercicio-placas *{
+.ejercicio-alambre *,.ejercicio-placas *,.ejercicio-elasticidad *{
     width: 100%;
     text-align: center;
 }
-.ejercicio-alambre img,.ejercicio-placas img{
+.ejercicio-alambre img,.ejercicio-placas img,.ejercicio-elasticidad img{
     width: 690px;
     margin: 20px;
 }
@@ -51,7 +51,7 @@ h1, h2, h3{
     height: 600px;
     overflow: hidden;
 }
-.slider--inner,.slider--inner1{
+.slider--inner,.slider--inner1,.slider--inner2{
     width: 800px;
     display:flex;
     flex-direction: row;
@@ -60,7 +60,7 @@ h1, h2, h3{
     align-items: center;
     text-align: center;
 }
-.slider--inner img,.slider--inner1 img{
+.slider--inner img,.slider--inner1 img,.slider--inner2 img{
     width: 100%;
     height: 600px;
     aspect-ratio: 16/9;

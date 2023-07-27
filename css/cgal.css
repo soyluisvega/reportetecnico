@@ -44,7 +44,6 @@ p a:hover{
 .container{
     position: relative;
     z-index: 2000;
-    background-color: aqua;
 }
 .container h2,.container h3{
     font-size: 1rem;
@@ -53,11 +52,9 @@ p a:hover{
     width: 500px;
 }
 .carousel{
-    background-color: red;
     display: flex;
     justify-content: center;
 }
 .carousel-item{
-    background-color: green;
     min-width: 600px;
 }

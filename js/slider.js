@@ -31,4 +31,19 @@ setInterval(function(){
     }
 },3000)
 
+let sliderInner2 = document.querySelector(".slider--inner2");
+
+let images2 = 
+sliderInner2.querySelectorAll("img");
+let index2 = 1;
+
+setInterval(function(){
+    let percentage = index2 * -100;
+    sliderInner2.style.transform = 
+    "translateX("+ percentage + "%)";
+    index2++;
+    if(index2 > (images.length)-1){
+        index2 = 0;
+    }
+},3000)
 
